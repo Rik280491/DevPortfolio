@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from '../header/Header'
+import Header from '../header/Header';
 
 function LandingPage(props) {
 	return (
 		<div className="backgroundImage">
-            <Header/>
-			
+			<Header />
 		</div>
 	);
 }
