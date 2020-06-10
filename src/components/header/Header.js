@@ -29,7 +29,8 @@ function Header() {
 			showLabels
 			className={classes.root}
 		>
-			<BottomNavigationAction label="Curriculum vitae" />
+            {/* add aria-labels */}
+			<BottomNavigationAction label="Curriculum vitae"/>
 			<BottomNavigationAction label="Projects" />
 			<BottomNavigationAction label="Blogs" />
 			<BottomNavigationAction label="Contact" />
