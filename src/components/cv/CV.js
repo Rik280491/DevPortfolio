@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 
 const styles = {
 	cvStyle: {
-        flex: 1
+        flex: 1,
+        "z-index": 1
+
 	},
 };
 
@@ -19,7 +21,7 @@ function CV() {
 	}, []);
 
 	return (
-		<>
+	
             <div
                 role="document"
                 aria-label="embedded pdf file showing my cv"
@@ -29,7 +31,7 @@ function CV() {
 				style={styles.cvStyle}
 			></div>
 		
-		</>
+	
 	);
 }
 

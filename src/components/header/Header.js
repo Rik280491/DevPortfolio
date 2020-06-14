@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Link } from "react-router-dom";
-
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
 
@@ -13,7 +11,8 @@ const useStyles = makeStyles({
 		// makes navbar sticky
 		width: "100%",
 		position: "fixed",
-		top: 0,
+        top: 0,
+        "z-index": 2
 	},
 });
 

@@ -1,13 +1,10 @@
 .App {
   text-align: center;
-  position: relative;
-  height: 100vh;
+  /* background-color: ; */
+
 
 }
 
-/* body {
-
-} */
 
 #title {
   font-family: "Carter One", cursive;
