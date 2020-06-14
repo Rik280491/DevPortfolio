@@ -3,7 +3,8 @@ import React from 'react';
 const styles = {
 
     demoStyle: {
-        flex: 1
+        flex: 1,
+
      }
 }
 
@@ -11,7 +12,11 @@ const styles = {
 function AppDemo(){
 
     return (
-        <h1 style={styles.demoStyle}>APP DEMO</h1>
+        <div style={styles.demoStyle}>
+        <h1 id="title">Hear Together Demo</h1>
+        <iframe title="demo of Hear Together project" width="600" height="500" src="https://www.youtube.com/embed/X9MAZSlLMWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {/* text about why i chose to do the project and interest in A11Y, alongside regular programming */}
+        </div>
     )
 }
 

@@ -6,6 +6,7 @@ import CV from "./CV";
 
 const styles = {
     display: "flex",
+    alignContent: "stretch"
 }
 
 
