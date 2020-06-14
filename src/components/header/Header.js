@@ -22,23 +22,28 @@ function Header() {
 
 	const navigator = (newValue) => {
 		switch (newValue) {
-			case 0:
+            case 0:
+                document.getElementById("app").scrollIntoView({ behavior: "smooth" });
+            break;
+            
+            case 1:
 				document.getElementById("cv").scrollIntoView({ behavior: "smooth" });
 				break;
-			case 1:
+			case 2:
 				document
 					.getElementById("projects")
 					.scrollIntoView({ behavior: "smooth" });
 				break;
-			case 2:
+			case 3:
 				console.log("Blogs!");
 				break;
-			case 3:
+			case 4:
 				console.log("Contact!");
 				break;
 			default:
-				document.getElementById("app").scrollIntoView({ behavior: "smooth" });
-		}
+                return 
+                
+        }
 	};
 	return (
 		<BottomNavigation
@@ -51,7 +56,8 @@ function Header() {
 			className={classes.root}
 		>
 			{/* add aria-labels and tabindex */}
-			<BottomNavigationAction label="Curriculum vitae" />
+			<BottomNavigationAction label="Home" />
+            <BottomNavigationAction label="Curriculum vitae" />
 			<BottomNavigationAction label="Projects" />
 			<BottomNavigationAction label="Blogs" />
 			<BottomNavigationAction label="Contact" />
