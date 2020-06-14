@@ -24,11 +24,6 @@ function CV() {
 				data-height-ratio="1.4143"
 				// style={style}
 			></div>
-			<a
-				href="https://www.canva.com/design/DAD92QPhsBE/view?utm_content=DAD92QPhsBE&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
-				target="_blank"
-				rel="noopener noreferrer"
-			></a>
 		</>
 	);
 }
