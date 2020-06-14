@@ -13,7 +13,7 @@ const styles = {
 
 function CVContainer() {
 	return (
-		<div style={styles}>
+		<div id="cv" style={styles}>
 			<CV />
 			<AppDemo />
 		</div>
