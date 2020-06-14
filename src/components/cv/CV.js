@@ -22,7 +22,7 @@ function CV() {
 		<>
             <div
                 role="document"
-                aria-label="a pdf of my cv"
+                aria-label="embedded pdf file showing my cv"
 				className="canva-embed"
 				data-design-id="DAD92QPhsBE"
 				data-height-ratio="1.4143"
