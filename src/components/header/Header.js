@@ -12,7 +12,7 @@ const useStyles = makeStyles({
 		width: "100%",
 		position: "fixed",
         top: 0,
-        "z-index": 2
+        zIndex: 2
 	},
 });
 

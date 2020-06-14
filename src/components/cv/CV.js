@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 const styles = {
 	cvStyle: {
         flex: 1,
-        "z-index": 1
+        zIndex: 1
 
 	},
 };
