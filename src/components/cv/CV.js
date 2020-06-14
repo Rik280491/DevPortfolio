@@ -21,6 +21,8 @@ function CV() {
 	return (
 		<>
             <div
+                role="document"
+                aria-label="a pdf of my cv"
 				className="canva-embed"
 				data-design-id="DAD92QPhsBE"
 				data-height-ratio="1.4143"
