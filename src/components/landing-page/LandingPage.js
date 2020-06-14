@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../header/Header';
 
-function LandingPage(props) {
+function LandingPage() {
 	return (
 		<div className="backgroundImage">
             {/* slightly hacky but ensures div image a11y */}

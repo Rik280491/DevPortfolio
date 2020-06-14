@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 
-// const style = {
-// change height and width
-// };
+const styles = {
+	cvStyle: {
+        flex: 1
+	},
+};
 
 function CV() {
 	useEffect(() => {
@@ -18,12 +20,13 @@ function CV() {
 
 	return (
 		<>
-			<div
-				class="canva-embed"
+            <div
+				className="canva-embed"
 				data-design-id="DAD92QPhsBE"
 				data-height-ratio="1.4143"
-				// style={style}
+				style={styles.cvStyle}
 			></div>
+		
 		</>
 	);
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
@@ -30,7 +30,7 @@ function Header() {
 			className={classes.root}
 		>
             {/* add aria-labels */}
-			<BottomNavigationAction label="Curriculum vitae"/>
+			<BottomNavigationAction label="Curriculum vitae" />
 			<BottomNavigationAction label="Projects" />
 			<BottomNavigationAction label="Blogs" />
 			<BottomNavigationAction label="Contact" />
