@@ -2,7 +2,7 @@ import React from "react";
 
 const styles = {
 	demoStyle: {
-		flex: 1,
+		// flex: 1,
 	},
 };
 

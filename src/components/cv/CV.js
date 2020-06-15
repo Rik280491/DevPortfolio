@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 
 const styles = {
 	cvStyle: {
-        flex: 1,
-        zIndex: 1
+        // flex: 1,
+         zIndex: 1
 
 	},
 };
