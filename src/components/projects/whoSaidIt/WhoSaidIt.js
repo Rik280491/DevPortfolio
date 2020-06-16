@@ -6,7 +6,9 @@ function WhoSaidIt() {
 
 
     return (
-            <ProjectCard/>
+            <ProjectCard
+            name="Who Said It?"
+            link="https://quotes-frontend.herokuapp.com"/>
         )
 }
 

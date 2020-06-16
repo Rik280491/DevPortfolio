@@ -5,7 +5,9 @@ function HearTogether() {
 	return (
 		<div >
 			
-            <ProjectCard/>
+            <ProjectCard 
+            name="Hear Together"
+            link="https://heartogether.netlify.app/"/>
             
             
 		</div>
