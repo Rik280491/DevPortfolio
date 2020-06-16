@@ -12,8 +12,8 @@ function AppDemo() {
 			{/* <h1 id="title">Hear Together Demo</h1> */}
 			<iframe
 				title="demo of Hear Together project"
-				width="600"
-				height="500"
+				width="100%"
+				// height
 				src="https://www.youtube.com/embed/X9MAZSlLMWw"
 				frameBorder="0"
 				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

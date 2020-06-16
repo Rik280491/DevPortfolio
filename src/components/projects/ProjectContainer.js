@@ -3,7 +3,7 @@ import HearTogether from "./hearTogether/HearTogether";
 import MusicPlayer from "./musicPlayer/MusicPlayer";
 import WhoSaidIt from "./whoSaidIt/WhoSaidIt";
 import { Grid, Image } from "semantic-ui-react";
-import AppDemo from "./hearTogether/AppDemo";
+
 
 const styles = {};
 
@@ -24,7 +24,7 @@ function ProjectContainer() {
 					</Grid.Column>
 				</Grid.Row>
             </Grid>
-            <AppDemo/>
+           
 		</div>
 	);
 }
