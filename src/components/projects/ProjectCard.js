@@ -20,7 +20,8 @@ function ProjectCard(props) {
 					<Card.Header>{name}</Card.Header>
 					<Card.Meta>
 						<span
-							aria-label={`This application is designed for use on a ${platform}`}
+                            aria-label={`This application is designed for use on a ${platform}/${platform2}`}
+                            // test what it sounds like if platform 2 is empty
 						>
 							{<Icon name={platform} />}
 							{platform2 ? <Icon name={platform2} /> : null}
