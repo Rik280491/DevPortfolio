@@ -15,7 +15,6 @@ function ProjectCard(props) {
 			<Card style={{ width: "100%" }}>
 				<Image src={screenshot} wrapped ui={false} />
 				{name === "Hear Together" ? <AppDemo /> : null}
-
 				<Card.Content>
 					<Card.Header>{name}</Card.Header>
 					<Card.Meta>
