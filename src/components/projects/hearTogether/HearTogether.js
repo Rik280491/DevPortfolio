@@ -1,11 +1,13 @@
-import React from "react";
-import AppDemo from "./AppDemo";
+import React from 'react';
+import ProjectCard from '../ProjectCard'
 
 function HearTogether() {
 	return (
-		<div>
-			<h1> TEST </h1>
-			<AppDemo />
+		<div >
+			
+            <ProjectCard/>
+            
+            
 		</div>
 	);
 }

@@ -1,12 +1,13 @@
 import React from 'react'
+import ProjectCard from '../ProjectCard'
 
 
 function WhoSaidIt() {
 
 
     return (
-        <h1> TEST </h1>
-    )
+            <ProjectCard/>
+        )
 }
 
 export default WhoSaidIt

@@ -1,11 +1,12 @@
 import React from 'react'
+import ProjectCard from '../ProjectCard'
 
 
 function MusicPlayer() {
 
 
     return (
-        <h1> TEST </h1>
+        <ProjectCard/>
     )
 }
 
