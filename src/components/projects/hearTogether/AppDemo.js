@@ -13,7 +13,7 @@ function AppDemo() {
 			<iframe
 				title="demo of Hear Together project"
 				width="100%"
-				// height
+				height="200px"
 				src="https://www.youtube.com/embed/X9MAZSlLMWw"
 				frameBorder="0"
 				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
