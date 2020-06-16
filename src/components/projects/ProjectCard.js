@@ -9,7 +9,7 @@ function ProjectCard(props) {
 		<a
 			target="_blank"
 			rel="noopener noreferrer"
-			title={`This card is a link to the ${name} website`}
+			aria-label={`This card is a link to the ${name} website`}
 			href={link}
 		>
 			<Card style={{ width: "100%" }}>
@@ -21,7 +21,7 @@ function ProjectCard(props) {
 					<Card.Meta>
 						<span
                             aria-label={`This application is designed for use on a ${platform}/${platform2}`}
-                            // test what it sounds like if platform 2 is empty
+                            // test what it sounds like if platform 2 is empty. is it going to say undefined?
 						>
 							{<Icon name={platform} />}
 							{platform2 ? <Icon name={platform2} /> : null}
