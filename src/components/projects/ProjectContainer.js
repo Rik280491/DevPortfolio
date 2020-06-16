@@ -11,7 +11,7 @@ function ProjectContainer() {
 	return (
 		<div id="projects" style={styles}>
             <h1 id="title">Projects</h1>
-			<Grid columns={3} divided>
+			<Grid columns={3} >
 				<Grid.Row>
 					<Grid.Column>
 						<HearTogether />

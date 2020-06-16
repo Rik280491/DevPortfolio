@@ -6,7 +6,7 @@ function ProjectCard(props) {
 
 	return (
 		<a target="_blank" rel="noopener noreferrer" href={link}>
-			<Card>
+			<Card style={{ width: "100%"}}>
 				<Image
 					src={screenshot}
 					wrapped
