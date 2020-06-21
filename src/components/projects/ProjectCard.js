@@ -3,7 +3,7 @@ import { Card, Icon, Image } from "semantic-ui-react";
 import AppDemo from "./hearTogether/AppDemo";
 
 function ProjectCard(props) {
-	const { name, link, screenshot, platform, platform2, description } = props;
+	const { name, link, screenshot, platform, platform2, description, useInfo } = props;
 
 	return (
 		<a
@@ -28,7 +28,7 @@ function ProjectCard(props) {
 					</Card.Meta>
 					<Card.Description>{description}</Card.Description>
 				</Card.Content>
-				{/* <Card.Content extra>Test</Card.Content> */}
+				<Card.Content extra>{useInfo}</Card.Content>
 			</Card>
 		</a>
 	);

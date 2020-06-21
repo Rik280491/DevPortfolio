@@ -13,6 +13,8 @@ function WhoSaidIt() {
             screenshot="https://user-images.githubusercontent.com/57149887/84835825-5c313600-b02c-11ea-9a4e-7cc480382477.png"
             platform='computer'
             platform2='mobile alternate'
+            description="Some of these people do actually think before they speak, not that it helps."
+            useInfo="Designed for all screen sizes" 
             />
         )
 }
