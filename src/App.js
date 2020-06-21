@@ -12,7 +12,9 @@ function App() {
 			<Header/>
       		<LandingPage />
 			<CVContainer />
+			<br></br>
 			<ProjectContainer />
+			<br></br>
 			<BlogsContainer />
 		</div>
 	);

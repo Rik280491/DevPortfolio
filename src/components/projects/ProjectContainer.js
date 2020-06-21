@@ -2,7 +2,7 @@ import React from "react";
 import HearTogether from "./hearTogether/HearTogether";
 import MusicPlayer from "./musicPlayer/MusicPlayer";
 import WhoSaidIt from "./whoSaidIt/WhoSaidIt";
-import { Grid, Image } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 
 
 const styles = {};
