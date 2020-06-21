@@ -4,6 +4,8 @@
 
 #title {
 	font-family: "Carter One", cursive;
+	font-size: 100px;
+	text-align: center;
 }
 
 .canva-embed {
@@ -25,4 +27,11 @@
 
 #project-card:hover {
 	transform: translate3D(0,-1px,0) scale(1.03);
+}
+
+#projects {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url("https://images.unsplash.com/photo-1506143925201-0252c51780b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2775&q=80");
 }

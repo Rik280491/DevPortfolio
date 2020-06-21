@@ -7,14 +7,14 @@ import { Grid } from "semantic-ui-react";
 
 const styles = {
 	display: 'flex', 
-	justifyContent: 'center',
+	justifyContent: 'center'
 	
 };
 
 function ProjectContainer() {
 	return (
 		<div id="projects" >
-            <h1 id="title" style={styles}>Projects</h1>
+            <h1 id="title">Projects</h1>
 			<br></br>
 			<Grid columns={3} style={styles} >
 				<Grid.Row>

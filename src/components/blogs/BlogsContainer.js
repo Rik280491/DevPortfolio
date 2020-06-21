@@ -1,24 +1,13 @@
-import React from 'react';
-import Blogs from './Blogs'
+import React from "react";
+import Blogs from "./Blogs";
 
 function BlogsContainer() {
-    
-    
-
-    
-    
-    
-    return (
+	return (
 		<div id="blogs">
-			
-            <h1 id="title">Blogs</h1>
-            
-            <Blogs />
+			<h1 id="title">Blogs</h1>
 
-            
-           
-            
-		 </div>
+			<Blogs />
+		</div>
 	);
 }
 
