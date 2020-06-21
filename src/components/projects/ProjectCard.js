@@ -12,15 +12,15 @@ function ProjectCard(props) {
 			aria-label={`This card is a link to the ${name} website`}
 			href={link}
 		>
-			<Card style={{ width: "100%" }}>
+			<Card id="project-card" style={{ width: "100%" }}>
 				<Image src={screenshot} wrapped ui={false} />
 				{name === "Hear Together" ? <AppDemo /> : null}
 				<Card.Content>
 					<Card.Header>{name}</Card.Header>
 					<Card.Meta>
 						<span
-                            aria-label={`This application is designed for use on a ${platform}/${platform2}`}
-                            // test what it sounds like if platform 2 is empty. is it going to say undefined?
+							aria-label={`This application is designed for use on a ${platform}/${platform2}`}
+							// test what it sounds like if platform 2 is empty. is it going to say undefined?
 						>
 							{<Icon name={platform} />}
 							{platform2 ? <Icon name={platform2} /> : null}
