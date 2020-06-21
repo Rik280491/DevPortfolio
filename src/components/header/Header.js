@@ -36,7 +36,8 @@ function Header() {
 					.scrollIntoView({ behavior: "smooth" });
 				break;
 			case 3:
-				console.log("Blogs!");
+				document.getElementById("blogs")
+					.scrollIntoView({ behavior: "smooth" });
 				break;
 			case 4:
 				console.log("Contact!");
