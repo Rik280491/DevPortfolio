@@ -5,21 +5,24 @@ import WhoSaidIt from "./whoSaidIt/WhoSaidIt";
 import { Grid } from "semantic-ui-react";
 
 
-const styles = {};
+const styles = {
+	display: 'flex', 
+	justifyContent: 'center',
+	
+};
 
 function ProjectContainer() {
 	return (
-		<div id="projects" style={styles}>
-            <h1 id="title">Projects</h1>
-			<Grid columns={3} >
+		<div id="projects" >
+            <h1 id="title" style={styles}>Projects</h1>
+			<br></br>
+			<Grid columns={3} style={styles} >
 				<Grid.Row>
 					<Grid.Column>
 						<HearTogether />
-					</Grid.Column>
-					<Grid.Column>
+						<br></br>
 						<MusicPlayer />
-					</Grid.Column>
-					<Grid.Column>
+						<br></br>
 						<WhoSaidIt />
 					</Grid.Column>
 				</Grid.Row>
