@@ -5,7 +5,7 @@ import CVContainer from './components/cv/CVContainer';
 import ProjectContainer from './components/projects/ProjectContainer';
 import Header from './components/header/Header'
 import BlogsContainer from './components/blogs/BlogsContainer'
-import ContactForm from './components/contact/ContactForm';
+import ContactContainer from './components/contact/ContactContainer';
 
 function App() {
 	return (
@@ -18,7 +18,7 @@ function App() {
 			<br></br>
 			<BlogsContainer />
 			<br></br>
-			<ContactForm/>
+			<ContactContainer/>
 		</div>
 	);
 }
