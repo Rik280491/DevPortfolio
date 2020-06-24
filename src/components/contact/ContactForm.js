@@ -5,7 +5,9 @@ import emailjs from "emailjs-com";
 function ContactForm(props) {
 	const [firstName, setFirstName] = useState("");
 	const [lastName, setLastName] = useState("");
-	const [message, setMessage] = useState("");
+    const [message, setMessage] = useState("");
+    const [contactStatus, setContactStatus] = useState("")
+    const [loading, setLoading] = useState(false)
 
 	const handleFirstNameChange = (e) => {
 		setFirstName(e.target.value);
@@ -26,9 +28,11 @@ function ContactForm(props) {
 	};
 
 	const handleSubmit = (e) => {
-		e.preventDefault();
+        e.preventDefault();
+        setLoading(true)
 
-		emailjs.send(
+		emailjs
+			.send(
 				"outlook",
 				"template_SD22jYts",
 				templateParams,
@@ -36,17 +40,43 @@ function ContactForm(props) {
 			)
 			.then(
 				(result) => {
-					console.log(result.text);
+                    console.log(result.text);
+                    setContactStatus("success")
+                    setLoading(false)
 				},
 				(error) => {
-					console.log(error.text);
-				}
+                    console.log(error.text)
+                    setContactStatus("error")
+                    setLoading(false)
+                }
+                
 			);
-	};
+    };
+    
+    const loadingProps = {
+        className: loading ? "ui loading form" : null 
+    }
+    
+    let formProps = {}
+    
+    if (contactStatus === "success") {
+        formProps = {
+            className: "ui success message"} 
+    }
+    if (contactStatus === "error") {
+        formProps = {
+            className: "ui error message"}
+    }
+    
+        
+       
+    
 
 	return (
-		// conditional render success or ""
-		<Form success onSubmit={handleSubmit}>
+     <div {...loadingProps}>
+        
+        <Form {...formProps}  onSubmit={handleSubmit}>
+        
 			<Form.Group widths="equal">
 				<Form.Field
 					id="form-input-control-first-name"
@@ -79,9 +109,15 @@ function ContactForm(props) {
 			<Message
 				success
 				header="Success"
-				content="Email has been sent. Thanks!"
+				content="Message has been sent. Thanks!"
+			/>
+			<Message
+				error
+				header="Error"
+				content="It's not you, it's me. Please try again"
 			/>
 		</Form>
+    </div>
 	);
 }
 
