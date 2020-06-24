@@ -40,7 +40,8 @@ function Header() {
 					.scrollIntoView({ behavior: "smooth" });
 				break;
 			case 4:
-				console.log("Contact!");
+				document.getElementById("contact")
+					.scrollIntoView({ behavior: "smooth" });
 				break;
 			default:
                 return 
