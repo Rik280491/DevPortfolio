@@ -17,7 +17,8 @@ const useStyles = makeStyles({
 	},
 });
 
-function Header() {
+function Header(props) {
+	const { triggerModal } = props
 	const classes = useStyles();
 	const [value, setValue] = useState(0);
 
@@ -39,10 +40,10 @@ function Header() {
 				document.getElementById("blogs")
 					.scrollIntoView({ behavior: "smooth" });
 				break;
-			case 4:
-				document.getElementById("contact")
-					.scrollIntoView({ behavior: "smooth" });
-				break;
+			// case 4:
+			// 	document.getElementById("contact")
+			// 		.scrollIntoView({ behavior: "smooth" });
+			// 	break;
 			default:
                 return 
                 
@@ -63,7 +64,7 @@ function Header() {
             <BottomNavigationAction label="Curriculum vitae" />
 			<BottomNavigationAction label="Projects" />
 			<BottomNavigationAction label="Blogs" />
-			<BottomNavigationAction label="Contact" />
+			<BottomNavigationAction label="Contact" onClick={triggerModal} />
 
 			{/* <BottomNavigationAction label="About Me" icon={<LocationOnIcon />} /> */}
 		</BottomNavigation>
