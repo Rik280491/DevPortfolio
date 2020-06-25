@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const styles = {
 	embed: {
-		// height: "50px",
+		// height: "50%",
 		// width: "50%"
 	},
 };
