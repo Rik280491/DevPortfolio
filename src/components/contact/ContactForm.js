@@ -104,7 +104,7 @@ function ContactForm(props) {
 			<Form.Field
 				id="form-button-control-public"
 				control={Button}
-				content="Confirm"
+				content="Send"
 			/>
 			<Message
 				success

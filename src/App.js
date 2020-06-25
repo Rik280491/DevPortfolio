@@ -26,7 +26,6 @@ function App() {
 			<ProjectContainer />
 			<br></br>
 			<BlogsContainer />
-			<br></br> 
 			{ open ? <ContactModal open={open} setOpen={setOpen}/> : null }
 
 		</div>

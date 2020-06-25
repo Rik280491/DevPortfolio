@@ -44,7 +44,7 @@ function ContactModal(props) {
 			>
 				<Fade in={open}>
 					<div className={classes.paper}>
-						<h3 id="title">Contact Us</h3>
+						<h1 id="title">GET IN TOUCH</h1>
 						<ContactForm/>
 					</div>
 				</Fade>
