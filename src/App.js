@@ -6,6 +6,7 @@ import ProjectContainer from './components/projects/ProjectContainer';
 import Header from './components/header/Header'
 import BlogsContainer from './components/blogs/BlogsContainer'
 import ContactModal from './components/contact/ContactModal';
+import Footer from './components/footer/Footer'
 
 function App() {
 	const [open, setOpen] = useState(false);
@@ -27,6 +28,7 @@ function App() {
 			<br></br>
 			<BlogsContainer />
 			{ open ? <ContactModal open={open} setOpen={setOpen}/> : null }
+			<Footer/>
 
 		</div>
 	);
