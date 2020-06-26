@@ -13,7 +13,7 @@ function ProjectCard(props) {
 			href={link}
 		>
 			<Card id="project-card" style={{ width: "100%" }}>
-				<Image src={screenshot} wrapped ui={false} />
+				<Image src={screenshot} wrapped ui={false} alt={`screen shot of ${name} app`} />
 				{name === "Hear Together" ? <AppDemo /> : null}
 				<Card.Content>
 					<Card.Header>{name}</Card.Header>

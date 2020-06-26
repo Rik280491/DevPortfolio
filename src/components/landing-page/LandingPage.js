@@ -11,6 +11,7 @@ function LandingPage() {
 				aria-label="A photograph of a Typewriter. Decorative Image"
 			/>
 
+			
 			<Typist className="typewriter">
 				 Rikesh Balakrishnan. Software Engineer
 			</Typist>

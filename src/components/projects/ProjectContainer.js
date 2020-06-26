@@ -14,7 +14,7 @@ const styles = {
 function ProjectContainer() {
 	return (
 		<div id="projects" >
-            <h1 id="title">Projects</h1>
+            <h1>Projects</h1>
 			<br></br>
 			<Grid columns={3} style={styles} >
 				<Grid.Row>

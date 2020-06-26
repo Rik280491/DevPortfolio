@@ -9,7 +9,6 @@ const styles = {
 function AppDemo() {
 	return (
 		<div style={styles.demoStyle}>
-			{/* <h1 id="title">Hear Together Demo</h1> */}
 			<iframe
 				title="demo of Hear Together project"
 				width="100%"

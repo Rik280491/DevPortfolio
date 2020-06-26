@@ -5,7 +5,7 @@
 	justify-content: center;
   } */
 
-#title {
+h1 {
 	font-family: "Carter One", cursive;
 	font-size: 50px;
 	text-align: center;
@@ -28,8 +28,8 @@
 }
 
 .canva-embed {
+	
 	border: 20px solid transparent;
-
 	padding: 15px;
 	border-image: url("https://images.unsplash.com/photo-1540206395-68808572332f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60")
 		30 round;
