@@ -48,13 +48,16 @@ h1 {
 
 /* programming logos */
 .devicon-rails-plain-wordmark {
-	font-size: 10rem
+	font-size: 10rem;
+	
 }
 
 .devicon-react-original-wordmark {
-	font-size: 10rem
+	font-size: 10rem;
+	float: right
 }
 
 .devicon-javascript-plain {
-	font-size: 10rem
+	font-size: 10rem;
+	float: right
 }
