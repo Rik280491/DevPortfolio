@@ -17,6 +17,7 @@ function Footer() {
 	return (
 		<AppBar className={classes.root}>
 			{"Copyright © Rikesh Balakrishnan"}
+			{' '}
 			{new Date().getFullYear()}
 		</AppBar>
 	);
