@@ -7,10 +7,15 @@ const styles = {
 	},
 };
 
+
 function Blogs() {
+	
 	useEffect(() => {
 		window.mediumWidget();
+		
+		
 	});
+
 
 	return (
 		<div
@@ -18,7 +23,10 @@ function Blogs() {
 			style={styles.embed}
 			aria-label="link to external website, medium.com, for full blog"
 			role="link"
-		></div>
+			
+		>
+		
+		</div>
 	);
 }
 

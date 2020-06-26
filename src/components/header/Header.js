@@ -58,13 +58,15 @@ function Header(props) {
 			}}
 			showLabels
 			className={classes.root}
+			role="navigation"
+			aria-label="Scrolls to different parts of the website"
 		>
-			{/* add aria-labels and tabindex */}
-			<BottomNavigationAction label="Home" />
-            <BottomNavigationAction label="Curriculum vitae" />
-			<BottomNavigationAction label="Projects" />
-			<BottomNavigationAction label="Blogs" />
-			<BottomNavigationAction label="Contact" onClick={triggerModal} />
+			{/* add tabindex */}
+			<BottomNavigationAction role="navigation" aria-label="Home Page" label="Home" />
+            <BottomNavigationAction role="navigation"  aria-label="CV" label="Curriculum vitae" />
+			<BottomNavigationAction role="navigation"  aria-label="Projects Section" label="Projects" />
+			<BottomNavigationAction role="navigation"  aria-label="Blogs Section" label="Blogs" />
+			<BottomNavigationAction role="navigation"  aria-label="Contact Modal" label="Contact" onClick={triggerModal} />
 
 			{/* <BottomNavigationAction label="About Me" icon={<LocationOnIcon />} /> */}
 		</BottomNavigation>
