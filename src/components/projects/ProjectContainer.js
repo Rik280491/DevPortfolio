@@ -11,38 +11,38 @@ function ProjectContainer() {
 			<br></br>
 			<Grid centered columns={3}>
 				<Grid.Row>
-					<Grid.Column>
+					<Grid.Column width={9}>
 						<HearTogether />
 						<Rail dividing position="left">
-							<i class="devicon-rails-plain-wordmark colored"></i>
+							<i className="devicon-rails-plain-wordmark colored"></i>
 						</Rail>
 
 						<Rail dividing position="right">
-							<i class="devicon-react-original-wordmark colored"></i>
+							<i className="devicon-react-original-wordmark colored"></i>
 						</Rail>
 					</Grid.Column>
 				</Grid.Row>
 				<Grid.Row>
-					<Grid.Column>
+					<Grid.Column width={9}>
 						<MusicPlayer />
 						<Rail dividing position="left">
-							<i class="devicon-rails-plain-wordmark colored"></i>{" "}
+							<i className="devicon-rails-plain-wordmark colored"></i>{" "}
 						</Rail>
 
 						<Rail dividing position="right">
-							<i class="devicon-react-original-wordmark colored"></i>
+							<i className="devicon-react-original-wordmark colored"></i>
 						</Rail>
 					</Grid.Column>
 				</Grid.Row>
 				<Grid.Row>
-					<Grid.Column>
+					<Grid.Column width={9}>
 						<WhoSaidIt />
 						<Rail dividing position="left">
-							<i class="devicon-rails-plain-wordmark colored"></i>{" "}
+							<i className="devicon-rails-plain-wordmark colored"></i>{" "}
 						</Rail>
 
 						<Rail dividing position="right">
-							<i class="devicon-javascript-plain colored"></i>
+							<i className="devicon-javascript-plain colored"></i>
 						</Rail>
 					</Grid.Column>
 				</Grid.Row>

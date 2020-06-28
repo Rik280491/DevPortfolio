@@ -12,7 +12,7 @@ function ProjectCard(props) {
 			aria-label={`This card is a link to the ${name} website`}
 			href={link}
 		>
-			<Card id="project-card" style={{ width: "100%" }}>
+			<Card id="project-card" style={{ width: "1000vw" }}>
 				<Image src={screenshot} wrapped ui={false} alt={`screen shot of ${name} app`} />
 				{name === "Hear Together" ? <AppDemo /> : null}
 				<Card.Content>
