@@ -3,17 +3,12 @@ import CV from "./CV";
 
 
 
-const styles = {
-    // display: "flex",
-    // alignContent: "stretch",
-
-}
 
 
 
 function CVContainer() {
 	return (
-		<div id="cv" style={styles} >
+		<div id="cv"  >
 			<CV />
 		</div>
 	);

@@ -58,7 +58,7 @@ function ContactModal(props) {
 							<CloseIcon />
 						</IconButton>
 
-						<h1>GET IN TOUCH</h1>
+						<h1 id="modal-title">GET IN TOUCH</h1>
 
 						<ContactForm />
 					</div>

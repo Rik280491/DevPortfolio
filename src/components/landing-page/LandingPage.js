@@ -4,7 +4,7 @@ import Typist from 'react-typist';
 
 function LandingPage() {
 	return (
-		<div className="backgroundImage">
+		<div className="landingImage">
 			{/* slightly hacky but ensures div image a11y */}
 			<span
 				role="img"

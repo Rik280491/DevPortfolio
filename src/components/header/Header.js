@@ -9,7 +9,7 @@ const useStyles = makeStyles({
 		// is the text too small?
 		height: 75,
 		// makes navbar sticky
-		width: "100%",
+		width: "100vw",
 		position: "fixed",
         top: 0,
         zIndex: 2,

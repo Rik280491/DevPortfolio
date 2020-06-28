@@ -4,7 +4,7 @@ import Blogs from "./Blogs";
 function BlogsContainer() {
 	return (
 		<div id="blogs">
-			<h1>Blogs</h1>
+			<h1 id="blog-title">Blogs</h1>
 
 			<Blogs />
 		</div>
