@@ -61,15 +61,20 @@ h1 {
 /* programming logos */
 .devicon-rails-plain-wordmark {
 	font-size: 10rem;
-	
+	position: relative;
+	top: 75px;
 }
 
 .devicon-react-original-wordmark {
 	font-size: 10rem;
-	float: right
+	float: right;
+	position: relative;
+	top: 75px;
 }
 
 .devicon-javascript-plain {
 	font-size: 10rem;
-	float: right
+	float: right;
+	position: relative;
+	top: 75px;
 }

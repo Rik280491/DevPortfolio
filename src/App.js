@@ -23,7 +23,7 @@ function App() {
 			<Header triggerModal={triggerModal}/>
       		<LandingPage />
 			<CVContainer />
-			
+			<br></br>
 			<ProjectContainer />
 			<br></br>
 			<BlogsContainer />
