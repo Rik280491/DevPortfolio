@@ -67,6 +67,7 @@ function ContactForm(props) {
         
 			<Form.Group widths="equal">
 				<Form.Field
+					required
 					id="form-input-control-first-name"
 					control={Input}
 					aria-label="First name"
@@ -75,6 +76,7 @@ function ContactForm(props) {
 					name="firstName"
 				/>
 				<Form.Field
+					required
 					id="form-input-control-last-name"
 					control={Input}
 					aria-label="Last name"
@@ -84,6 +86,7 @@ function ContactForm(props) {
 				/>
 			</Form.Group>
 			<Form.Field
+				required
 				id="form-textarea-control-opinion"
 				control={TextArea}
 				aria-label="Message"
