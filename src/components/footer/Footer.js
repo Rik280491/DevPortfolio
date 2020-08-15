@@ -4,7 +4,7 @@ import AppBar from "@material-ui/core/AppBar";
 
 const useStyles = makeStyles({
 	root: {
-		width: "100%",
+
 		"text-align": "center",
 		top: "auto",
 		bottom: 0,

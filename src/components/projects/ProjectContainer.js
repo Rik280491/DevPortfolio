@@ -4,6 +4,8 @@ import MusicPlayer from "./musicPlayer/MusicPlayer";
 import WhoSaidIt from "./whoSaidIt/WhoSaidIt";
 import { Grid, Rail } from "semantic-ui-react";
 
+
+
 function ProjectContainer() {
 	return (
 		<div id="projects">

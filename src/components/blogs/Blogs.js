@@ -1,11 +1,6 @@
 import React, { useEffect } from "react";
 
-const styles = {
-	embed: {
-		// height: "50%",
-		// width: "50%"
-	},
-};
+
 
 
 function Blogs() {
@@ -20,7 +15,6 @@ function Blogs() {
 	return (
 		<div
 			id="medium-widget"
-			style={styles.embed}
 			aria-label="link to external website, medium.com, for full blog"
 			role="link"
 			
