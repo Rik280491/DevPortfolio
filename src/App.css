@@ -1,24 +1,21 @@
- * {
+* {
 	box-sizing: border-box;
-} 
-
+}
 
 /* fonts */
 h1 {
-	font-family: 'Press Start 2P', cursive;
+	font-family: "Press Start 2P", cursive;
 	font-size: 3rem;
 	text-align: center;
 }
 
 #blog-title {
-	font-family: 'Marck Script', cursive;
-	
+	font-family: "Marck Script", cursive;
 }
 
 #modal-title {
-	font-family: 'Bungee Shade', cursive;
+	font-family: "Bungee Shade", cursive;
 }
-
 
 /* Landing Page */
 .landingImage {
@@ -37,9 +34,6 @@ h1 {
 	font-family: monospace;
 }
 
-
-
-
 /* CV section */
 .canva-embed {
 	border: 20px solid transparent;
@@ -54,21 +48,16 @@ h1 {
 	display: none;
 }
 
-
-
 #project-card:hover {
 	transform: translate3D(0, -1px, 0) scale(1.03);
 }
-
-
-
 
 /* programming logos */
 .devicon-rails-plain-wordmark {
 	font-size: 10rem;
 	position: relative;
 	top: 75px;
-	left: 80px
+	left: 80px;
 }
 
 .devicon-react-original-wordmark {
@@ -76,7 +65,7 @@ h1 {
 	float: right;
 	position: relative;
 	top: 75px;
-	right: 80px
+	right: 80px;
 }
 
 .devicon-javascript-plain {
@@ -84,33 +73,26 @@ h1 {
 	float: right;
 	position: relative;
 	top: 75px;
-	right: 80px
+	right: 80px;
 }
 
 /* page dividers */
 hr.dashed {
 	border-top: 3px dashed blue;
-  }
-
-  /* blogs section */
-
-
-
-.medium-widget-article__item {
-	padding-right: 0;
 }
 
-.medium-widget-article__image img {
-	margin-right: 0;
+/* blogs section */
 
+.medium-widget-article__row {
+	width: 100%;
+	margin: 0;
 }
 
- @media (max-width: 40rem){
+@media (max-width: 40rem) {
 	.ui.centered.three.column.grid {
 		display: none;
 	}
-	.mobile-projects-container{
+	.mobile-projects-container {
 		display: block;
 	}
- }
-
+}

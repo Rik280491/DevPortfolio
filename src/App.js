@@ -26,7 +26,7 @@ function App() {
 			<br></br>
 			<hr class="dashed"></hr>
 			<br></br>
-			{/* <BlogsContainer /> */}
+			<BlogsContainer />
 			{open ? <ContactModal open={open} setOpen={setOpen} /> : null}
 			<Footer />
 		</div>
