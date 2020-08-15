@@ -50,13 +50,16 @@ h1 {
 
 /* projects section */
 
-#projects {
-
+.mobile-projects-container {
+	display: none;
 }
+
+
 
 #project-card:hover {
 	transform: translate3D(0, -1px, 0) scale(1.03);
 }
+
 
 
 
@@ -91,9 +94,7 @@ hr.dashed {
 
   /* blogs section */
 
-#blogs {
-	
-}
+
 
 .medium-widget-article__item {
 	padding-right: 0;
@@ -105,12 +106,11 @@ hr.dashed {
 }
 
  @media (max-width: 40rem){
-	.ui.left.dividing.rail {
+	.ui.centered.three.column.grid {
 		display: none;
 	}
-	.ui.right.dividing.rail {
-		display: none;
+	.mobile-projects-container{
+		display: block;
 	}
-	
  }
 

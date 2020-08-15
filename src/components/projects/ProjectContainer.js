@@ -49,6 +49,15 @@ function ProjectContainer() {
 					</Grid.Column>
 				</Grid.Row>
 			</Grid>
+			{/* mobile version */}
+			<div className="mobile-projects-container">
+				<HearTogether/>
+				<br></br>
+				<MusicPlayer/>
+				<br></br>
+				<WhoSaidIt/>
+			</div>
+			
 		</div>
 	);
 }
