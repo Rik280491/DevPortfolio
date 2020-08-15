@@ -95,4 +95,8 @@ hr.dashed {
 	.mobile-projects-container {
 		display: block;
 	}
+
+	.canva-embed {
+		border: 0;
+	}
 }
