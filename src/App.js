@@ -20,11 +20,11 @@ function App() {
 			<Header triggerModal={triggerModal} />
 			<LandingPage />
 			<CVContainer />
-			<hr class="dashed"></hr>
+			<hr className="dashed"></hr>
 			<br></br>
 			<ProjectContainer />
 			<br></br>
-			<hr class="dashed"></hr>
+			<hr className="dashed"></hr>
 			<br></br>
 			<BlogsContainer />
 			{open ? <ContactModal open={open} setOpen={setOpen} /> : null}
